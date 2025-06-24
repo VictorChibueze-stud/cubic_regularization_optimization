@@ -1,0 +1,204 @@
+[2025-06-24 14:01:05,584] INFO - root - Iteration 0, Loss: 0.5390, Accuracy: 0.7500
+[2025-06-24 14:01:05,601] INFO - root - Iteration 1, Loss: 0.5390, Accuracy: 0.7500
+[2025-06-24 14:01:05,614] INFO - root - Iteration 0, Loss: 0.2576, Accuracy: 0.9800
+[2025-06-24 14:01:05,646] INFO - root - Converged in 8 iterations with gradient norm 1.4568e-07
+[2025-06-24 14:02:01,569] INFO - root - Iteration 0, Loss: 0.5390, Accuracy: 0.7500
+[2025-06-24 14:02:01,581] INFO - root - Iteration 1, Loss: 0.5390, Accuracy: 0.7500
+[2025-06-24 14:02:01,594] INFO - root - Iteration 0, Loss: 0.2576, Accuracy: 0.9800
+[2025-06-24 14:02:01,635] INFO - root - Converged in 8 iterations with gradient norm 1.4568e-07
+[2025-06-24 14:07:34,183] INFO - root - Run 1/5
+[2025-06-24 14:07:34,183] INFO - root - Running ARC
+[2025-06-24 14:07:34,212] INFO - root - Iteration 1, Loss: 2.8020, Accuracy: 0.6226
+[2025-06-24 14:07:34,417] INFO - root - Iteration 11, Loss: 1.2704, Accuracy: 0.6960
+[2025-06-24 14:07:34,616] INFO - root - Iteration 21, Loss: 0.7365, Accuracy: 0.7318
+[2025-06-24 14:07:34,803] INFO - root - Iteration 31, Loss: 0.5983, Accuracy: 0.7427
+[2025-06-24 14:07:35,001] INFO - root - Iteration 41, Loss: 0.5538, Accuracy: 0.7487
+[2025-06-24 14:07:35,186] INFO - root - Iteration 51, Loss: 0.5368, Accuracy: 0.7506
+[2025-06-24 14:07:35,380] INFO - root - Iteration 61, Loss: 0.5350, Accuracy: 0.7521
+[2025-06-24 14:07:35,566] INFO - root - Iteration 71, Loss: 0.5330, Accuracy: 0.7518
+[2025-06-24 14:07:35,753] INFO - root - Iteration 81, Loss: 0.5312, Accuracy: 0.7523
+[2025-06-24 14:07:35,934] INFO - root - Iteration 91, Loss: 0.5298, Accuracy: 0.7521
+[2025-06-24 14:07:36,116] INFO - root - Iteration 101, Loss: 0.5287, Accuracy: 0.7519
+[2025-06-24 14:07:36,226] INFO - root - Early stopping at iteration 107
+[2025-06-24 14:07:36,235] INFO - root - ARC Results: Train Accuracy: 0.7520, Test Accuracy: 0.7488, Final Loss: 5.2826e-01, Iterations: 107
+[2025-06-24 14:07:36,235] INFO - root - Running Gradient Descent
+[2025-06-24 14:07:37,860] INFO - root - Early stopping at iteration 185
+[2025-06-24 14:07:37,860] INFO - root - Gradient Descent Results: Train Accuracy: 0.7512, Test Accuracy: 0.7484, Final Loss: 5.3641e-01, Iterations: 186
+[2025-06-24 14:07:37,860] INFO - root - Running Conjugate Gradient Descent
+[2025-06-24 14:07:40,897] INFO - root - Early stopping at iteration 123
+[2025-06-24 14:07:40,899] INFO - root - Conjugate Gradient Descent Results: Train Accuracy: 0.7519, Test Accuracy: 0.7487, Final Loss: 5.3112e-01, Iterations: 123
+[2025-06-24 14:07:40,899] INFO - root - Running BFGS
+[2025-06-24 14:07:40,924] INFO - root - Iteration 0, Loss: 2.8020, Accuracy: 0.6226
+[2025-06-24 14:07:41,225] INFO - root - Iteration 10, Loss: 0.7286, Accuracy: 0.7336
+[2025-06-24 14:07:41,560] INFO - root - Iteration 20, Loss: 0.5699, Accuracy: 0.7387
+[2025-06-24 14:07:41,896] INFO - root - Iteration 30, Loss: 0.5390, Accuracy: 0.7519
+[2025-06-24 14:07:42,227] INFO - root - Iteration 40, Loss: 0.5353, Accuracy: 0.7527
+[2025-06-24 14:07:42,555] INFO - root - Iteration 50, Loss: 0.5310, Accuracy: 0.7487
+[2025-06-24 14:07:42,891] INFO - root - Iteration 60, Loss: 0.5276, Accuracy: 0.7511
+[2025-06-24 14:07:43,232] INFO - root - Iteration 70, Loss: 0.5271, Accuracy: 0.7503
+[2025-06-24 14:07:43,266] INFO - root - Early stopping at iteration 71
+[2025-06-24 14:07:43,270] INFO - root - BFGS Results: Train Accuracy: 0.7501, Test Accuracy: 0.7474, Final Loss: 5.2701e-01, Iterations: 72
+[2025-06-24 14:07:43,270] INFO - root - Running Cubic Newton
+[2025-06-24 14:07:43,344] INFO - root - Iteration 0, Loss: 2.7802, Accuracy: 0.4209
+[2025-06-24 14:07:43,821] INFO - root - Iteration 10, Loss: 0.5795, Accuracy: 0.7132
+[2025-06-24 14:07:44,637] INFO - root - Iteration 20, Loss: 0.5312, Accuracy: 0.7554
+[2025-06-24 14:07:45,674] INFO - root - Iteration 30, Loss: 0.5312, Accuracy: 0.7554
+[2025-06-24 14:07:46,645] INFO - root - Iteration 40, Loss: 0.5312, Accuracy: 0.7554
+[2025-06-24 14:07:47,629] INFO - root - Iteration 50, Loss: 0.5312, Accuracy: 0.7554
+[2025-06-24 14:07:47,699] INFO - root - Early stopping at iteration 51
+[2025-06-24 14:07:47,699] INFO - root - Cubic Newton Results: Train Accuracy: 0.7554, Test Accuracy: 0.7527, Final Loss: 5.3117e-01, Iterations: 52
+[2025-06-24 14:07:47,699] INFO - root - Run 2/5
+[2025-06-24 14:07:47,699] INFO - root - Running ARC
+[2025-06-24 14:07:47,724] INFO - root - Iteration 1, Loss: 3.0110, Accuracy: 0.5673
+[2025-06-24 14:07:47,926] INFO - root - Iteration 11, Loss: 1.0311, Accuracy: 0.6931
+[2025-06-24 14:07:48,120] INFO - root - Iteration 21, Loss: 0.6237, Accuracy: 0.7397
+[2025-06-24 14:07:48,315] INFO - root - Iteration 31, Loss: 0.5593, Accuracy: 0.7520
+[2025-06-24 14:07:48,509] INFO - root - Iteration 41, Loss: 0.5399, Accuracy: 0.7546
+[2025-06-24 14:07:48,691] INFO - root - Iteration 51, Loss: 0.5356, Accuracy: 0.7494
+[2025-06-24 14:07:48,878] INFO - root - Iteration 61, Loss: 0.5313, Accuracy: 0.7514
+[2025-06-24 14:07:49,079] INFO - root - Iteration 71, Loss: 0.5295, Accuracy: 0.7521
+[2025-06-24 14:07:49,167] INFO - root - Early stopping at iteration 75
+[2025-06-24 14:07:49,167] INFO - root - ARC Results: Train Accuracy: 0.7517, Test Accuracy: 0.7482, Final Loss: 5.2924e-01, Iterations: 75
+[2025-06-24 14:07:49,167] INFO - root - Running Gradient Descent
+[2025-06-24 14:07:50,387] INFO - root - Early stopping at iteration 137
+[2025-06-24 14:07:50,392] INFO - root - Gradient Descent Results: Train Accuracy: 0.7538, Test Accuracy: 0.7504, Final Loss: 5.3862e-01, Iterations: 138
+[2025-06-24 14:07:50,392] INFO - root - Running Conjugate Gradient Descent
+[2025-06-24 14:07:52,721] INFO - root - Early stopping at iteration 98
+[2025-06-24 14:07:52,721] INFO - root - Conjugate Gradient Descent Results: Train Accuracy: 0.7522, Test Accuracy: 0.7487, Final Loss: 5.2956e-01, Iterations: 98
+[2025-06-24 14:07:52,721] INFO - root - Running BFGS
+[2025-06-24 14:07:52,750] INFO - root - Iteration 0, Loss: 3.0110, Accuracy: 0.5673
+[2025-06-24 14:07:53,040] INFO - root - Iteration 10, Loss: 0.6494, Accuracy: 0.7371
+[2025-06-24 14:07:53,362] INFO - root - Iteration 20, Loss: 0.5553, Accuracy: 0.7624
+[2025-06-24 14:07:53,700] INFO - root - Iteration 30, Loss: 0.5387, Accuracy: 0.7531
+[2025-06-24 14:07:54,045] INFO - root - Iteration 40, Loss: 0.5318, Accuracy: 0.7480
+[2025-06-24 14:07:54,385] INFO - root - Iteration 50, Loss: 0.5297, Accuracy: 0.7531
+[2025-06-24 14:07:54,719] INFO - root - Iteration 60, Loss: 0.5285, Accuracy: 0.7516
+[2025-06-24 14:07:55,067] INFO - root - Iteration 70, Loss: 0.5270, Accuracy: 0.7511
+[2025-06-24 14:07:55,261] INFO - root - Early stopping at iteration 76
+[2025-06-24 14:07:55,265] INFO - root - BFGS Results: Train Accuracy: 0.7519, Test Accuracy: 0.7487, Final Loss: 5.2693e-01, Iterations: 77
+[2025-06-24 14:07:55,265] INFO - root - Running Cubic Newton
+[2025-06-24 14:07:55,316] INFO - root - Iteration 0, Loss: 0.7178, Accuracy: 0.6097
+[2025-06-24 14:07:55,879] INFO - root - Iteration 10, Loss: 0.5334, Accuracy: 0.7892
+[2025-06-24 14:07:56,836] INFO - root - Iteration 20, Loss: 0.5334, Accuracy: 0.7892
+[2025-06-24 14:07:57,769] INFO - root - Iteration 30, Loss: 0.5334, Accuracy: 0.7892
+[2025-06-24 14:07:58,764] INFO - root - Iteration 40, Loss: 0.5334, Accuracy: 0.7892
+[2025-06-24 14:07:59,752] INFO - root - Iteration 50, Loss: 0.5334, Accuracy: 0.7892
+[2025-06-24 14:07:59,827] INFO - root - Early stopping at iteration 51
+[2025-06-24 14:07:59,827] INFO - root - Cubic Newton Results: Train Accuracy: 0.7892, Test Accuracy: 0.7858, Final Loss: 5.3341e-01, Iterations: 52
+[2025-06-24 14:07:59,827] INFO - root - Run 3/5
+[2025-06-24 14:07:59,827] INFO - root - Running ARC
+[2025-06-24 14:07:59,853] INFO - root - Iteration 1, Loss: 3.7454, Accuracy: 0.4742
+[2025-06-24 14:08:00,064] INFO - root - Iteration 11, Loss: 1.3383, Accuracy: 0.6890
+[2025-06-24 14:08:00,271] INFO - root - Iteration 21, Loss: 0.7646, Accuracy: 0.7523
+[2025-06-24 14:08:00,470] INFO - root - Iteration 31, Loss: 0.6063, Accuracy: 0.7751
+[2025-06-24 14:08:00,670] INFO - root - Iteration 41, Loss: 0.5649, Accuracy: 0.7759
+[2025-06-24 14:08:00,869] INFO - root - Iteration 51, Loss: 0.5455, Accuracy: 0.7687
+[2025-06-24 14:08:01,066] INFO - root - Iteration 61, Loss: 0.5353, Accuracy: 0.7631
+[2025-06-24 14:08:01,268] INFO - root - Iteration 71, Loss: 0.5309, Accuracy: 0.7567
+[2025-06-24 14:08:01,463] INFO - root - Iteration 81, Loss: 0.5293, Accuracy: 0.7515
+[2025-06-24 14:08:01,601] INFO - root - Early stopping at iteration 88
+[2025-06-24 14:08:01,601] INFO - root - ARC Results: Train Accuracy: 0.7523, Test Accuracy: 0.7490, Final Loss: 5.2888e-01, Iterations: 88
+[2025-06-24 14:08:01,601] INFO - root - Running Gradient Descent
+[2025-06-24 14:08:03,575] INFO - root - Early stopping at iteration 217
+[2025-06-24 14:08:03,575] INFO - root - Gradient Descent Results: Train Accuracy: 0.7634, Test Accuracy: 0.7605, Final Loss: 5.3558e-01, Iterations: 218
+[2025-06-24 14:08:03,575] INFO - root - Running Conjugate Gradient Descent
+[2025-06-24 14:08:06,278] INFO - root - Early stopping at iteration 115
+[2025-06-24 14:08:06,282] INFO - root - Conjugate Gradient Descent Results: Train Accuracy: 0.7534, Test Accuracy: 0.7506, Final Loss: 5.2952e-01, Iterations: 115
+[2025-06-24 14:08:06,282] INFO - root - Running BFGS
+[2025-06-24 14:08:06,311] INFO - root - Iteration 0, Loss: 3.7454, Accuracy: 0.4742
+[2025-06-24 14:08:06,630] INFO - root - Iteration 10, Loss: 0.8460, Accuracy: 0.6649
+[2025-06-24 14:08:06,965] INFO - root - Iteration 20, Loss: 0.5901, Accuracy: 0.7768
+[2025-06-24 14:08:07,303] INFO - root - Iteration 30, Loss: 0.5470, Accuracy: 0.7655
+[2025-06-24 14:08:07,630] INFO - root - Iteration 40, Loss: 0.5348, Accuracy: 0.7601
+[2025-06-24 14:08:07,981] INFO - root - Iteration 50, Loss: 0.5305, Accuracy: 0.7570
+[2025-06-24 14:08:08,306] INFO - root - Iteration 60, Loss: 0.5293, Accuracy: 0.7513
+[2025-06-24 14:08:08,633] INFO - root - Iteration 70, Loss: 0.5279, Accuracy: 0.7540
+[2025-06-24 14:08:08,960] INFO - root - Iteration 80, Loss: 0.5268, Accuracy: 0.7514
+[2025-06-24 14:08:09,031] INFO - root - Early stopping at iteration 82
+[2025-06-24 14:08:09,035] INFO - root - BFGS Results: Train Accuracy: 0.7515, Test Accuracy: 0.7485, Final Loss: 5.2679e-01, Iterations: 83
+[2025-06-24 14:08:09,035] INFO - root - Running Cubic Newton
+[2025-06-24 14:08:09,082] INFO - root - Iteration 0, Loss: 4.1278, Accuracy: 0.5816
+[2025-06-24 14:08:09,604] INFO - root - Iteration 10, Loss: 0.5521, Accuracy: 0.7330
+[2025-06-24 14:08:10,257] INFO - root - Iteration 20, Loss: 0.5321, Accuracy: 0.7779
+[2025-06-24 14:08:11,256] INFO - root - Iteration 30, Loss: 0.5321, Accuracy: 0.7779
+[2025-06-24 14:08:12,218] INFO - root - Iteration 40, Loss: 0.5321, Accuracy: 0.7779
+[2025-06-24 14:08:13,200] INFO - root - Iteration 50, Loss: 0.5321, Accuracy: 0.7779
+[2025-06-24 14:08:13,317] INFO - root - Early stopping at iteration 51
+[2025-06-24 14:08:13,317] INFO - root - Cubic Newton Results: Train Accuracy: 0.7779, Test Accuracy: 0.7746, Final Loss: 5.3208e-01, Iterations: 52
+[2025-06-24 14:08:13,317] INFO - root - Run 4/5
+[2025-06-24 14:08:13,317] INFO - root - Running ARC
+[2025-06-24 14:08:13,339] INFO - root - Iteration 1, Loss: 3.7800, Accuracy: 0.5210
+[2025-06-24 14:08:13,555] INFO - root - Iteration 11, Loss: 1.2913, Accuracy: 0.6872
+[2025-06-24 14:08:13,754] INFO - root - Iteration 21, Loss: 0.6884, Accuracy: 0.7701
+[2025-06-24 14:08:13,953] INFO - root - Iteration 31, Loss: 0.5864, Accuracy: 0.7726
+[2025-06-24 14:08:14,149] INFO - root - Iteration 41, Loss: 0.5589, Accuracy: 0.7703
+[2025-06-24 14:08:14,352] INFO - root - Iteration 51, Loss: 0.5480, Accuracy: 0.7572
+[2025-06-24 14:08:14,545] INFO - root - Iteration 61, Loss: 0.5385, Accuracy: 0.7524
+[2025-06-24 14:08:14,754] INFO - root - Iteration 71, Loss: 0.5331, Accuracy: 0.7506
+[2025-06-24 14:08:14,941] INFO - root - Iteration 81, Loss: 0.5294, Accuracy: 0.7516
+[2025-06-24 14:08:15,100] INFO - root - Early stopping at iteration 89
+[2025-06-24 14:08:15,105] INFO - root - ARC Results: Train Accuracy: 0.7520, Test Accuracy: 0.7492, Final Loss: 5.2904e-01, Iterations: 89
+[2025-06-24 14:08:15,105] INFO - root - Running Gradient Descent
+[2025-06-24 14:08:17,366] INFO - root - Early stopping at iteration 260
+[2025-06-24 14:08:17,370] INFO - root - Gradient Descent Results: Train Accuracy: 0.7541, Test Accuracy: 0.7508, Final Loss: 5.3965e-01, Iterations: 261
+[2025-06-24 14:08:17,370] INFO - root - Running Conjugate Gradient Descent
+[2025-06-24 14:08:20,204] INFO - root - Early stopping at iteration 121
+[2025-06-24 14:08:20,208] INFO - root - Conjugate Gradient Descent Results: Train Accuracy: 0.7520, Test Accuracy: 0.7492, Final Loss: 5.2923e-01, Iterations: 121
+[2025-06-24 14:08:20,208] INFO - root - Running BFGS
+[2025-06-24 14:08:20,237] INFO - root - Iteration 0, Loss: 3.7800, Accuracy: 0.5210
+[2025-06-24 14:08:20,519] INFO - root - Iteration 10, Loss: 0.7401, Accuracy: 0.7602
+[2025-06-24 14:08:20,832] INFO - root - Iteration 20, Loss: 0.5770, Accuracy: 0.7739
+[2025-06-24 14:08:21,168] INFO - root - Iteration 30, Loss: 0.5533, Accuracy: 0.7603
+[2025-06-24 14:08:21,521] INFO - root - Iteration 40, Loss: 0.5369, Accuracy: 0.7476
+[2025-06-24 14:08:21,847] INFO - root - Iteration 50, Loss: 0.5312, Accuracy: 0.7494
+[2025-06-24 14:08:22,194] INFO - root - Iteration 60, Loss: 0.5292, Accuracy: 0.7520
+[2025-06-24 14:08:22,360] INFO - root - Early stopping at iteration 65
+[2025-06-24 14:08:22,365] INFO - root - BFGS Results: Train Accuracy: 0.7531, Test Accuracy: 0.7503, Final Loss: 5.2889e-01, Iterations: 66
+[2025-06-24 14:08:22,365] INFO - root - Running Cubic Newton
+[2025-06-24 14:08:22,410] INFO - root - Iteration 0, Loss: 1.2135, Accuracy: 0.5452
+[2025-06-24 14:08:22,940] INFO - root - Iteration 10, Loss: 0.5549, Accuracy: 0.7328
+[2025-06-24 14:08:23,770] INFO - root - Iteration 20, Loss: 0.5374, Accuracy: 0.7581
+[2025-06-24 14:08:24,766] INFO - root - Iteration 30, Loss: 0.5374, Accuracy: 0.7581
+[2025-06-24 14:08:25,696] INFO - root - Iteration 40, Loss: 0.5374, Accuracy: 0.7581
+[2025-06-24 14:08:26,608] INFO - root - Iteration 50, Loss: 0.5374, Accuracy: 0.7581
+[2025-06-24 14:08:26,675] INFO - root - Early stopping at iteration 51
+[2025-06-24 14:08:26,675] INFO - root - Cubic Newton Results: Train Accuracy: 0.7581, Test Accuracy: 0.7584, Final Loss: 5.3738e-01, Iterations: 52
+[2025-06-24 14:08:26,675] INFO - root - Run 5/5
+[2025-06-24 14:08:26,675] INFO - root - Running ARC
+[2025-06-24 14:08:26,708] INFO - root - Iteration 1, Loss: 2.9747, Accuracy: 0.5782
+[2025-06-24 14:08:26,910] INFO - root - Iteration 11, Loss: 1.2357, Accuracy: 0.7032
+[2025-06-24 14:08:27,114] INFO - root - Iteration 21, Loss: 0.6898, Accuracy: 0.7400
+[2025-06-24 14:08:27,315] INFO - root - Iteration 31, Loss: 0.5810, Accuracy: 0.7421
+[2025-06-24 14:08:27,505] INFO - root - Iteration 41, Loss: 0.5504, Accuracy: 0.7460
+[2025-06-24 14:08:27,691] INFO - root - Iteration 51, Loss: 0.5357, Accuracy: 0.7488
+[2025-06-24 14:08:27,875] INFO - root - Iteration 61, Loss: 0.5303, Accuracy: 0.7523
+[2025-06-24 14:08:27,991] INFO - root - Early stopping at iteration 67
+[2025-06-24 14:08:27,996] INFO - root - ARC Results: Train Accuracy: 0.7515, Test Accuracy: 0.7486, Final Loss: 5.2992e-01, Iterations: 67
+[2025-06-24 14:08:27,996] INFO - root - Running Gradient Descent
+[2025-06-24 14:08:29,878] INFO - root - Early stopping at iteration 216
+[2025-06-24 14:08:29,878] INFO - root - Gradient Descent Results: Train Accuracy: 0.7515, Test Accuracy: 0.7481, Final Loss: 5.3099e-01, Iterations: 217
+[2025-06-24 14:08:29,882] INFO - root - Running Conjugate Gradient Descent
+[2025-06-24 14:08:31,724] INFO - root - Early stopping at iteration 78
+[2025-06-24 14:08:31,729] INFO - root - Conjugate Gradient Descent Results: Train Accuracy: 0.7522, Test Accuracy: 0.7492, Final Loss: 5.2979e-01, Iterations: 78
+[2025-06-24 14:08:31,729] INFO - root - Running BFGS
+[2025-06-24 14:08:31,756] INFO - root - Iteration 0, Loss: 2.9747, Accuracy: 0.5782
+[2025-06-24 14:08:32,061] INFO - root - Iteration 10, Loss: 0.6748, Accuracy: 0.7420
+[2025-06-24 14:08:32,393] INFO - root - Iteration 20, Loss: 0.5636, Accuracy: 0.7516
+[2025-06-24 14:08:32,728] INFO - root - Iteration 30, Loss: 0.5367, Accuracy: 0.7490
+[2025-06-24 14:08:33,052] INFO - root - Iteration 40, Loss: 0.5304, Accuracy: 0.7506
+[2025-06-24 14:08:33,382] INFO - root - Iteration 50, Loss: 0.5292, Accuracy: 0.7541
+[2025-06-24 14:08:33,723] INFO - root - Iteration 60, Loss: 0.5271, Accuracy: 0.7503
+[2025-06-24 14:08:34,012] INFO - root - Early stopping at iteration 69
+[2025-06-24 14:08:34,017] INFO - root - BFGS Results: Train Accuracy: 0.7517, Test Accuracy: 0.7490, Final Loss: 5.2681e-01, Iterations: 70
+[2025-06-24 14:08:34,017] INFO - root - Running Cubic Newton
+[2025-06-24 14:08:34,076] INFO - root - Iteration 0, Loss: 3.2770, Accuracy: 0.4656
+[2025-06-24 14:08:34,725] INFO - root - Iteration 10, Loss: 0.5591, Accuracy: 0.7319
+[2025-06-24 14:08:35,598] INFO - root - Iteration 20, Loss: 0.5276, Accuracy: 0.7636
+[2025-06-24 14:08:36,634] INFO - root - Iteration 30, Loss: 0.5276, Accuracy: 0.7636
+[2025-06-24 14:08:37,731] INFO - root - Iteration 40, Loss: 0.5276, Accuracy: 0.7636
+[2025-06-24 14:08:38,612] INFO - root - Iteration 50, Loss: 0.5276, Accuracy: 0.7636
+[2025-06-24 14:08:38,737] INFO - root - Early stopping at iteration 51
+[2025-06-24 14:08:38,742] INFO - root - Cubic Newton Results: Train Accuracy: 0.7636, Test Accuracy: 0.7603, Final Loss: 5.2759e-01, Iterations: 52
+[2025-06-24 14:08:39,580] INFO - root - Saved loss plot to average_loss_comparison.png
+[2025-06-24 14:08:39,763] INFO - root - Saved accuracy plot to average_accuracy_comparison.png
+[2025-06-24 14:08:39,767] INFO - root - Experiment completed and plots saved.
